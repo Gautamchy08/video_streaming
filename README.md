@@ -156,10 +156,4 @@ const API_URL = 'http://10.0.2.2:5000';  // Android emulator
 // const API_URL = 'http://192.168.x.x:5000';  // Physical device
 ```
 
-## 🎥 Loom Video Points to Cover
 
-1. **Architecture**: React Native → Flask API → MongoDB
-2. **JWT Flow**: signup/login → tokens → authenticated requests
-3. **YouTube Abstraction**: youtube_id hidden, embed URL via token
-4. **Bonus Features**: Refresh tokens, rate limiting, pagination
-5. **Where AI helped**: Code generation, debugging, explanations
