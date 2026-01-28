@@ -1,0 +1,17 @@
+from app import create_app
+
+app = create_app()
+
+if __name__ == '__main__':
+    print("🚀 Starting Flask API server...")
+    print("📍 Server running at: http://localhost:5000")
+    print("📍 Health check: http://localhost:5000/health")
+    print("\n📝 API Endpoints:")
+    print("   POST /auth/signup    - Register new user")
+    print("   POST /auth/login     - Login user")
+    print("   GET  /auth/me        - Get user profile")
+    print("   POST /auth/logout    - Logout user")
+    print("   GET  /dashboard      - Get video dashboard")
+    print("   GET  /video/<id>/stream - Get video stream URL")
+    print("\n")
+    app.run(host='0.0.0.0', port=5000, debug=True)
